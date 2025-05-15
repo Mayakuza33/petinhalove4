@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+button {
+  position: absolute;
+  top: 75%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  padding: 16px 24px;
+  color: red;
+  background: transparent;
+  border: none;
+  font-weight: bold;
+  font-family: 'Lucida Sans', sans-serif;
+  cursor: pointer;
+  z-index: 10;
+}
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000; /* cor de fundo se imagem não cobrir tudo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#cartaFechada {
+  max-height: 100vh;
+  max-width: 100vw;
+  width: auto;
+  height: auto;
+}
+
+#cartaAberta {
+  max-height: 100vh;
+  max-width: 100vh;
+  width: 1000px;
+  height: auto;
+}
+#paginaFinal {
+  max-height: 100vh;
+  max-width: 100vh;
+  width: 1000px;
+  height: auto;
+}
+#botaoAbrir {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  padding: 16px 24px;
+  color: rgb(233, 220, 220);
+  background: transparent;
+  border: none;
+  font-weight: bolder;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  z-index: 10;
+}
+#botaoProxima {
+  background-color: brown;
+  position: absolute;
+  top: 65%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  padding: 16px 24px;
+  color: rgb(233, 0, 0);
+  background: transparent;
+  border: none;
+  font-weight: bolder;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  z-index: 10;
+}
+#botaoProxima2 {
+  background-color: brown;
+  position: absolute;
+  top: 65%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  padding: 16px 24px;
+  color: rgb(233, 0, 0);
+  background: transparent;
+  border: none;
+  font-weight: bolder;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  z-index: 10;
+}
